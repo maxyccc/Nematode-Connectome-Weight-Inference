@@ -1,0 +1,90 @@
+{
+  "cell_info": {
+    "cells_id_sim": [
+      "176",
+      "177",
+      "231",
+      "232",
+      "233",
+      "234",
+      "235",
+      "236",
+      "237",
+      "268",
+      "269",
+      "270",
+      "271",
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278"
+    ],
+    "cells_name_dic": {
+    "176": "AVBL",
+    "177": "AVBR",
+    "231": "DB01",
+    "232": "DB02",
+    "233": "DB03",
+    "234": "DB04",
+    "235": "DB05",
+    "236": "DB06",
+    "237": "DB07",
+    "268": "VB01",
+    "269": "VB02",
+    "270": "VB03",
+    "271": "VB04",
+    "272": "VB05",
+    "273": "VB06",
+    "274": "VB07",
+    "275": "VB08",
+    "276": "VB09",
+    "277": "VB10",
+    "278": "VB11"
+    }
+  },
+  "dir_info": {
+    "morphology_dir": "components/morphology/",
+    "mechanism_dir": "components/mechanism/",
+    "cell_param_dir": "components/param/cell/",
+    "model_dir": "components/model/",
+    "adj_matrix_dir": "components/param/connection/SI5-302.xlsx",
+    "synapse_sheet": "chemical",
+    "gap_junction_sheet": "gapjunction",
+    "neuron_muscle_con": "components/param/connection/neuron_muscle.xlsx",
+    "synapse_distance_dir": "components/param/connection/syn_gj_dist.xlsx"
+  },
+  "cnt_info": {
+    "weight_range": {
+      "syn": [
+        0.1,
+        10
+      ],
+      "gj": [
+        1e-4,
+        1e-3
+      ]
+    },
+    "inh_prob": 0.3,
+    "syn_a": 23.91,
+    "syn_b": 0.02285,
+    "gj_a": 20.49,
+    "gj_b": 0.02184,
+    "syn_mu": 0.44,
+    "syn_scale": 0.63,
+    "gj_mu": 0.7,
+    "gj_scale": 0.4,
+    "thresh": 10
+  },
+  "io": {
+    "input_cells": [
+      "AVBL", "AVBR"
+    ],
+    "output_cells": [
+      "DB01", "DB02", "DB03", "DB04", "DB05", "DB06", "DB07",
+      "VB01", "VB02", "VB03", "VB04", "VB05", "VB06", "VB07", "VB08", "VB09", "VB10", "VB11"
+    ]
+  }
+}

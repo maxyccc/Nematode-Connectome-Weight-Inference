@@ -1,0 +1,17 @@
+__pycache__/
+*.egg-info/
+x86_64/
+.idea/
+
+*.dll
+*.dat
+*.out
+*.pkl
+*.tar
+*.hoc
+*.swc
+*.jpg
+*.png
+*.npy
+*.tif
+

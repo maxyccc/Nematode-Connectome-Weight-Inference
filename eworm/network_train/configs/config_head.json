@@ -1,0 +1,77 @@
+{
+    "cell_info": {
+        "cells_id_sim": ["24", "25", "36", "37", "111", "112", "113", "114", "117", "118", "142", "143", "148", "149", "152", "153", "154", "155", "169", "170", "188", "189", "190", "191", "192", "193", "194", "195", "196", "197", "198", "199", "205", "206", "207", "208", "209", "210", "211", "212"],
+
+        "cells_name_dic": {
+            "24":  "AWAL",
+            "25":  "AWAR",
+            "36":  "AWCL",
+            "37":  "AWCR",
+            "111": "AIYL",
+            "112": "AIYR",
+            "113": "AIAL",
+            "114": "AIAR",
+            "117": "AIZL",
+            "118": "AIZR",
+            "142": "RIBL",
+            "143": "RIBR",
+            "148": "AIBL",
+            "149": "AIBR",
+            "152": "SAADL",
+            "153": "SAADR",
+            "154": "SAAVL",
+            "155": "SAAVR",
+            "169": "RIML",
+            "170": "RIMR",
+            "188": "RMEL",
+            "189": "RMER",
+            "190": "RMED",
+            "191": "RMEV",
+            "192": "RMDDL",
+            "193": "RMDDR",
+            "194": "RMDL",
+            "195": "RMDR",
+            "196": "RMDVL",
+            "197": "RMDVR",
+            "198": "RIVL",
+            "199": "RIVR",
+            "205": "SMDDL",
+            "206": "SMDDR",
+            "207": "SMDVL",
+            "208": "SMDVR",
+            "209": "SMBDL",
+            "210": "SMBDR",
+            "211": "SMBVL",
+            "212": "SMBVR"
+        }
+    },
+
+    "dir_info": {
+        "morphology_dir": "components/morphology/",
+        "mechanism_dir": "components/mechanism/",
+        "cell_param_dir": "components/param/cell/",
+        "model_dir": "components/model/",
+        "adj_matrix_dir": "components/param/connection/SI5-302.xlsx",
+        "synapse_sheet": "chemical",
+        "gap_junction_sheet": "gapjunction",
+        "neuron_muscle_con": "components/param/connection/neuron_muscle.xlsx",
+        "synapse_distance_dir": "components/param/connection/syn_gj_dist.xlsx"
+    },
+
+    "cnt_info": {
+        "weight_range": {
+            "syn": [0.1, 10],
+            "gj": [1e-4, 1e-3]
+        },
+        "inh_prob": 0.3,
+        "syn_a": 23.91,
+        "syn_b": 0.02285,
+        "gj_a": 20.49,
+        "gj_b": 0.02184,
+        "syn_mu": 0.44,
+        "syn_scale": 0.63,
+        "gj_mu": 0.7,
+        "gj_scale": 0.4,
+        "thresh": 5e-2
+    }
+}

@@ -1,0 +1,12 @@
+xlrd~=1.2.0
+numpy~=1.21.5
+matplotlib~=3.4.3
+scipy~=1.6.2
+setuptools~=52.0.0
+tqdm~=4.64.0
+NEURON==8.0
+seaborn
+pymp-pypi
+networkx
+pytorch
+torchvision==0.10.0

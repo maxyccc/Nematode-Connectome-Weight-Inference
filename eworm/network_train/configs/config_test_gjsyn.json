@@ -1,0 +1,52 @@
+{
+  "cell_info": {
+    "cells_id_sim": ["55", "179", "143", "148", "199", "208"],
+    "cells_name_dic": {
+      "55": "PQR",
+      "179": "AVAR",
+      "143": "RIBR",
+      "148": "AIBL",
+      "199": "RIVR",
+      "208": "SMDVR"
+    }
+  },
+  "dir_info": {
+    "morphology_dir": "components/morphology/",
+    "mechanism_dir": "components/mechanism/",
+    "cell_param_dir": "components/param/cell/",
+    "model_dir": "components/model/",
+    "adj_matrix_dir": "components/param/connection/SI5-302.xlsx",
+    "synapse_sheet": "chemical",
+    "gap_junction_sheet": "gapjunction",
+    "neuron_muscle_con": "components/param/connection/neuron_muscle.xlsx",
+    "synapse_distance_dir": "components/param/connection/syn_gj_dist.xlsx"
+  },
+  "cnt_info": {
+    "weight_range": {
+      "syn": [
+        0.1,
+        10
+      ],
+      "gj": [
+        1e-4,
+        1e-3
+      ]
+    },
+    "inh_prob": 0.3,
+    "syn_a": 23.91,
+    "syn_b": 0.02285,
+    "gj_a": 20.49,
+    "gj_b": 0.02184,
+    "syn_mu": 0.44,
+    "syn_scale": 0.63,
+    "gj_mu": 0.7,
+    "gj_scale": 0.4,
+    "thresh": 10,
+    "cnt_scale": 4,
+    "gj_priority": 0.2
+  },
+  "io": {
+    "input_cells": [],
+    "output_cells": []
+  }
+}
